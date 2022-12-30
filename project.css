@@ -1,0 +1,190 @@
+
+.header{
+    background-color: #0781f3;
+}
+.main{
+ background-image: url(image/1618684712_61-p-karkasnii-dom-66.jpg);   
+ 
+ }
+ /*надпись сайт в разработке*/
+.status{
+  text-align: center;
+  font-style: italic;
+  font-size: 50px;
+  margin-top: 30px;
+  color: #ee3b3b;
+}
+.navigation{
+    /*border: 2px solid darkblue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+/*кнопки*/
+.button{
+    background-color: rgb(7,19,196);
+    color: white;
+    border-radius: 5px;
+margin-top: 20px;
+}
+/*текст приветствия*/
+.cont{
+   /* border: 1px solid rgb(48, 45, 2);*/
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(240, 230, 200);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*блок информации о деятельности*/
+.information{
+   /* border: 1px solid black;*/
+    margin-top: 20px;
+    background-color: rgb(7, 19, 196);
+    font-family: 'Times New Roman', Times, serif;
+}
+/*описание деятельности*/
+.abzac {
+color: rgb(248, 252, 248);
+text-align: center;
+font-size: larger;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding:30px;
+}
+/*блок с предложением и формой отправки*/
+ .predlog{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+ }   
+ .h1{
+    color: rgb(0,0,0);
+    background-color: aliceblue;
+    
+ }
+ /*надпись галереи*/
+ .works{
+   text-align: center; 
+   font-size: 50px;
+   color: #0746f3;
+   font-style: italic;
+   border: 2px solid rgb(163, 5, 5);
+   background-color: #3ac752;
+ }
+ /*форма отправки*/
+    #inline {
+        margin-left:30px;
+        width:60%;
+        margin:0 auto;
+        padding:10px 20px;
+        margin-top: 90px;
+     }
+     .txt {
+        display:inline-block;
+        color:#676767;
+        width:190px;
+        margin-bottom:10px;
+        border:1px solid rgb(228, 151, 151);
+        padding:5px 9px;
+        font-size:15px!important;
+        line-height:1.4em;
+     }
+     .txtarea {
+        display:inline-block;
+        color:#676767;
+        width:570px;
+        margin-bottom:10px;
+        border:1px solid rgb(219, 127, 127);
+        padding:5px 9px;
+        font-size:15px!important;
+        line-height:1.4em;
+        height:80px;
+     }
+     .txt:focus, .txtarea:focus {
+        border-style:solid;
+        border-color:#BABABA;
+        color:#444;
+     }
+     input.error, textarea.error {
+         border-color:#973D3D;
+         border-style:solid;
+         background:#F0BEBE;
+         color:#A35959;
+     }
+     input.error:focus, textarea.error:focus {
+         border-color:#973D3D;
+         color:#A35959;
+     }
+     #send { 
+         color:#ec0606;
+         display:block;
+         cursor:pointer;
+         padding:5px 11px;
+         font-size:1.2em;
+         border:solid 1px #3ac752;
+         border-radius:2px;
+         background:#1bd8bc;
+         width:210px;
+         margin-bottom:20px;
+     }
+     #send:hover {
+         background:#b11515;
+     }
+     .zaya{
+        color: rgb(240, 235, 234);
+        border: 2px dotted blue;
+        text-align: center;
+        background-color: #ec0606;
+     }
+     /*Галерея*/
+     #gall {
+        position: relative;
+        padding-top: 50%;
+        -moz-user-select: none; user-select: none;
+      }
+      #gall img {
+        position: absolute;
+        top: 25%;
+        left: 12.5%;
+        max-width: 24.5%;
+        max-height: 49.5%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        cursor: zoom-in;
+        transition: .2s;
+      }
+      #gall img:nth-child(4n-2) {left: 37.5%;}
+      #gall img:nth-child(4n-1) {left: 62.5%;}
+      #gall img:nth-child(4n) {left: 87.5%;}
+      #gall img:nth-child(n+5) {top: 75%;}
+      
+      #gall img:focus {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        max-width: 100%;
+        max-height: 100%;
+        outline: none;
+        pointer-events: none;
+      }
+      #gall img:focus ~ div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        cursor: zoom-out;
+      }
+    /* блок подвала*/
+    .project{
+background-color: #50a7f8;
+    }
+    /*надпись о проектах*/
+    .projects{
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      font-style: italic;
+    }
